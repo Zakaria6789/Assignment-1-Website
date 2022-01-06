@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* first-section-start */
 .first-section{
     display: flex;
     width: 80%;
@@ -20,7 +21,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     border-left: 4px solid tomato;
-    padding-left: 10px;
+    padding-left: 12px;
 }
 .first-section-right img{
     width: 100%;
@@ -38,7 +39,7 @@ body{
     display: inline-block;
     font-size: 14px;
 }
-/* first-section-end */
+/* Second-section-start */
 .second-section{
     width: 80%;
     margin: auto;
@@ -77,7 +78,7 @@ body{
 .small-text{
     font-size: 14px;
 }
-/* second-section-end */
+/* third-section-start */
 .third-section{
     display: flex;
     width: 80%;
@@ -103,7 +104,7 @@ body{
 .develop-title{
     font-size: 32px;
 }
-/* third-section-end */
+/* fourth-section-start */
 .fourth-section{
     display: flex;
     width: 80%;
@@ -130,7 +131,7 @@ body{
 .know-title{
     font-size: 32px;
 }
-/* fourth-section-end */
+/* fifth-section-start */
 .fifth-section{
     width: 80%;
     margin: auto;
@@ -153,7 +154,7 @@ body{
 .experience-item-right{
     width: 50%;
 }
-/* fifth-section-end */
+/* footer-section-start */
 .footer-section{
     margin: auto;
     background-color: black;
