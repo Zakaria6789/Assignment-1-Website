@@ -7,7 +7,7 @@ body{
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .first-section-left{
     width: 60%;
@@ -20,19 +20,22 @@ body{
 .first-section-left h1{
     font-size: 48px;
     font-weight: 800;
-    border-left: 4px solid tomato;
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
     padding-left: 12px;
-}
-.first-section-right img{
-    width: 100%;
 }
 .make-just{
     color:orange;
 }
+.first-section-right img{
+    width: 100%;
+}
+
 .button{
     text-decoration: none;
     color: white;
-    background-color: tomato;
+    background-image: linear-gradient(tomato,orange);
     padding: 10px 30px;
     border-radius: 5px;
     margin-top: 5px;
@@ -54,6 +57,7 @@ body{
 }
 .working-all-item{
     display: flex;
+    margin-top: 40px;
 }
 
 .working-single-item{
