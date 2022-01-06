@@ -38,7 +38,7 @@ body{
     background-image: linear-gradient(tomato,orange);
     padding: 10px 30px;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
     display: inline-block;
     font-size: 14px;
 }
@@ -105,6 +105,9 @@ body{
     width: 60%;
     margin-left: 5%;
 }
+.third-section-right p{
+    margin-top: -12px;
+}
 .develop-title{
     font-size: 32px;
 }
@@ -128,6 +131,9 @@ body{
 .fourth-section-left{
     width: 60%;
     margin-right: 5%;
+}
+.fourth-section-left p{
+    margin-top: -12px;
 }
 .fourth-section-right{
     width: 35%;
